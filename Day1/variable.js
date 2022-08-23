@@ -42,10 +42,34 @@ console.log(string.split(" "))
 
 //Day 2 training
 
+//1
 let challenge = "30 Days of JavaScript"
+//2
 console.log(challenge)
+//3
 console.log(challenge.length)
+//4
 console.log(challenge.toUpperCase())
+//5
 console.log(challenge.toLowerCase())
+//6
 console.log(challenge.substring(2, 21))
-console
+//7
+console.log(challenge.replace('Days of JavaScript', ''))
+//8
+console.log(challenge.includes("Script"))
+//9
+console.log(challenge.split())
+//10
+console.log(challenge.split(" "))
+//11
+let text = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+console.log(text.split(", "))
+//12
+console.log(challenge.replace("JavaScript", "Python"))
+//13
+console.log(challenge.charAt(15))
+//14
+console.log(challenge.indexOf("J"))
+console.log(challenge.charCodeAt(11))
+
