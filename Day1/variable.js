@@ -71,5 +71,33 @@ console.log(challenge.replace("JavaScript", "Python"))
 console.log(challenge.charAt(15))
 //14
 console.log(challenge.indexOf("J"))
+console.log(challenge.charAt(11))
 console.log(challenge.charCodeAt(11))
+//15
+console.log(challenge.indexOf("a"))
+//16
+console.log(challenge.lastIndexOf("a"))
+//17
+let text2 = "You cannot end a sentence with because because because is a conjunction"
+console.log(text2.indexOf("because"))
+//18
+console.log(text2.lastIndexOf("because"))
+//19
+console.log(text2.search("because"))
+//20
+let text3 = " 30 Days of JavaScript "
+console.log(text3.trim())
+//21
+console.log(challenge.startsWith("30"))
+//22
+console.log(challenge.endsWith("JavaScript"))
+//23
+console.log(challenge.match(/a/g)) //regular expression
+//24
+let concat1 = "30 Days of"
+let concat2 = " JavaScript"
+console.log(concat1.concat(concat2))
+
+
+
 
